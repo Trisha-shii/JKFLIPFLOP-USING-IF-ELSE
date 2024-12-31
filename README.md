@@ -52,7 +52,8 @@ Developed by:  Trisha Priyadarshni Parida
 RegisterNumber: 212224230293
 */
 
-```module jk_ff (j, k, clk, rst, q);
+```
+module jk_ff (j, k, clk, rst, q);
   input j, k, clk, rst;
   output reg q;
   always @(posedge clk or posedge rst) begin
